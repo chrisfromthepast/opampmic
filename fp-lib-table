@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "opAmp Mic")(type KiCad)(uri "${KIPRJMOD}/opAmp Mic.pretty/opAmp Mic.pretty")(options "")(descr ""))
+)
