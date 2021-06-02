@@ -323,16 +323,9 @@ Wire Wire Line
 Wire Wire Line
 	3100 3200 2950 3200
 Wire Wire Line
-	2950 3550 3100 3550
-Wire Wire Line
 	2950 3950 3000 3950
-Connection ~ 2950 3550
-Wire Wire Line
-	2950 3400 2950 3550
 Wire Wire Line
 	2950 3550 2950 3950
-Wire Wire Line
-	2950 3200 2950 3550
 Wire Wire Line
 	3600 4050 3600 3550
 Wire Wire Line
@@ -564,4 +557,11 @@ Wire Wire Line
 	8500 4250 8300 4250
 Text Notes 7600 4550 0    50   ~ 0
 soldered on connector
+Wire Wire Line
+	2950 3200 2950 3550
+Connection ~ 2950 3550
+Wire Wire Line
+	2950 3550 3100 3550
+Text Notes 750  3700 0    50   ~ 0
+must keep capsule shell electronically isolated from\n microphone body with type of split rail.
 $EndSCHEMATC
