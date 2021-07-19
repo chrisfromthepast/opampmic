@@ -274,17 +274,6 @@ Wire Wire Line
 	3650 1550 3850 1550
 Wire Wire Line
 	3850 1550 3850 1350
-$Comp
-L power:GND #PWR0101
-U 1 1 6082E045
-P 1500 3200
-F 0 "#PWR0101" H 1500 2950 50  0001 C CNN
-F 1 "GND" H 1505 3027 50  0000 C CNN
-F 2 "" H 1500 3200 50  0001 C CNN
-F 3 "" H 1500 3200 50  0001 C CNN
-	1    1500 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2950 2550 2550 2550
 Wire Wire Line
@@ -564,4 +553,15 @@ Wire Wire Line
 	2950 3550 3100 3550
 Text Notes 750  3700 0    50   ~ 0
 must keep capsule shell electronically isolated from\n microphone body with type of split rail.
+$Comp
+L power:Earth #PWR0101
+U 1 1 60F4DA44
+P 1500 3200
+F 0 "#PWR0101" H 1500 2950 50  0001 C CNN
+F 1 "Earth" H 1500 3050 50  0001 C CNN
+F 2 "" H 1500 3200 50  0001 C CNN
+F 3 "~" H 1500 3200 50  0001 C CNN
+	1    1500 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
