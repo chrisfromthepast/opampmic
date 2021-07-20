@@ -551,8 +551,6 @@ Wire Wire Line
 Connection ~ 2950 3550
 Wire Wire Line
 	2950 3550 3100 3550
-Text Notes 750  3700 0    50   ~ 0
-must keep capsule shell electronically isolated from\n microphone body with type of split rail.
 $Comp
 L power:Earth #PWR0101
 U 1 1 60F4DA44
@@ -564,4 +562,6 @@ F 3 "~" H 1500 3200 50  0001 C CNN
 	1    1500 3200
 	1    0    0    -1  
 $EndComp
+Text Notes 1050 3600 0    50   ~ 0
+stock capsle in Zramo 104\nor JLI-165A-T
 $EndSCHEMATC
