@@ -7,5 +7,5 @@ circuit designed by Jules Ryckebusch, PCB layout by me Chris Williams. I first s
 
 Jules has an alternate design that is impedance balanced, which is also worth a shot, as well as a version for true condensers.
 
-I have had problems with this mic on some vintage style preamps, but on most modern chip based preamps, it performs well.
+I have been really happy with this little circuit.
 
